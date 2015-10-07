@@ -4,6 +4,7 @@ require "lightning/mathl"
 
 module Lightning
   def self.pow(base, power)
+		puts "hello"
 		m = MathL.new
 		m.pow(base, power)
 	end
